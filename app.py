@@ -16,7 +16,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Load your dataset
 # Replace 'your_dataset.csv' with the actual file path or URL of your dataset
-dataset_path = 'Dataset.csv\\New_Dataset1.csv'
+dataset_path = 'New_Dataset1.csv'
 dataset = pd.read_csv(dataset_path)
 
 # Label encode categorical columns
